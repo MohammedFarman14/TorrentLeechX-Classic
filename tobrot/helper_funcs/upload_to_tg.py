@@ -371,7 +371,7 @@ async def upload_single_file(
             message_for_progress_display = message
             if not edit_media:
                 message_for_progress_display = await message.reply_text(
-                   📌🅢🅣🅐🅡🅣🅘🅝🅖 🅤🅟🅛🅞🅐🅓 🅞🅕📤".format(
+                   "📌🅢🅣🅐🅡🅣🅘🅝🅖 🅤🅟🅛🅞🅐🅓 🅞🅕📤".format(
                         os.path.basename(local_file_name))
                 )
                 prog = Progress(from_user, client,
