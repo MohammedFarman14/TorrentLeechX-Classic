@@ -36,7 +36,7 @@ async def down_load_media_f(client, message):
                 message=message.reply_to_message,
                 file_name=download_location,
                 progress=prog.progress_for_pyrogram,
-                progress_args=("⏬𝙩𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙🧲", c_time),
+                progress_args=("🙂𝕋𝕣𝕪𝕚𝕟𝕘 𝕥𝕠 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙⏬", c_time),
             )
         except Exception as g_e:
             await mess_age.edit(str(g_e))
@@ -88,7 +88,7 @@ async def download_tg(client, message):
                 message=message.reply_to_message,
                 file_name=download_location,
                 progress=prog.progress_for_pyrogram,
-                progress_args=("⏬𝙩𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙🧲", c_time),
+                progress_args=("🙂𝕋𝕣𝕪𝕚𝕟𝕘 𝕥𝕠 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙⏬", c_time) 
             )
         except Exception as g_e:
             await mess_age.edit(str(g_e))
