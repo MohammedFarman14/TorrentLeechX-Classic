@@ -94,9 +94,9 @@ async def upload_to_tg(
             LOGGER.info("TODO")
             d_f_s = humanbytes(os.path.getsize(local_file_name))
             i_m_s_g = await message.reply_text(
-                "𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙎𝙪𝙥𝙥𝙤𝙧𝙩𝙨 2𝙂𝘽 𝙈𝙖𝙭\n"
+                "📁𝔽𝕚𝕝𝕖 𝕚𝕤 𝕝𝕒𝕣𝕘𝕖𝕣 𝕥𝕙𝕒𝕟 𝟚 GB😡\n"
                 f"\n𝘿𝙚𝙩𝙚𝙘𝙩𝙚𝙙 𝙁𝙞𝙡𝙚 𝙎𝙞𝙯𝙚: {d_f_s} 📚\n"
-                "\n🤖𝙩𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙨𝙥𝙡𝙞𝙩 𝙩𝙝𝙚 𝙛𝙞𝙡𝙚𝙨🌝🗜️"
+                "\n🤖𝙩𝙧𝙮𝙞𝙣𝙜 𝙩𝙤 𝙨𝙥𝙡𝙞𝙩 𝙩𝙝𝙚 𝙛𝙞𝙡𝙚𝙨👀"
             )
             splitted_dir = await split_large_files(local_file_name)
             totlaa_sleif = os.listdir(splitted_dir)
@@ -214,7 +214,7 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
             button.append(
                 [
                     pyrogram.InlineKeyboardButton(
-                        text="🎦 𝙄𝙣𝙙𝙚𝙭-𝙐𝙧𝙡 🎦", url=f"{tam_link}"
+                        text="🔗 𝙄𝙣𝙙𝙚𝙭-𝙐𝙧𝙡 🔗", url=f"{tam_link}"
                     )
                 ]
             )
@@ -283,7 +283,7 @@ async def upload_to_gdrive(file_upload, message, messa_ge, g_id):
             button.append(
                 [
                     pyrogram.InlineKeyboardButton(
-                        text="🎦 𝙄𝙣𝙙𝙚𝙭-𝙐𝙧𝙡 🎦", url=f"{tam_link}"
+                        text="🔗 𝙄𝙣𝙙𝙚𝙭-𝙐𝙧𝙡 🔗", url=f"{tam_link}"
                     )
                 ]
             )
@@ -340,7 +340,7 @@ async def upload_single_file(
         message_for_progress_display = message
         if not edit_media:
             message_for_progress_display = await message.reply_text(
-                "📤𝙨𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙪𝙥𝙡𝙤𝙖𝙙 𝙤𝙛 {}📦".format(
+                "📌🅢🅣🅐🅡🅣🅘🅝🅖 🅤🅟🅛🅞🅐🅓 🅞🅕📤 {}".format(
                     os.path.basename(local_file_name))
             )
         prog = Progress(from_user, client, message_for_progress_display)
@@ -371,7 +371,7 @@ async def upload_single_file(
             message_for_progress_display = message
             if not edit_media:
                 message_for_progress_display = await message.reply_text(
-                    "📤𝙨𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙪𝙥𝙡𝙤𝙖𝙙 𝙤𝙛 {}📦".format(
+                   📌🅢🅣🅐🅡🅣🅘🅝🅖 🅤🅟🅛🅞🅐🅓 🅞🅕📤".format(
                         os.path.basename(local_file_name))
                 )
                 prog = Progress(from_user, client,
