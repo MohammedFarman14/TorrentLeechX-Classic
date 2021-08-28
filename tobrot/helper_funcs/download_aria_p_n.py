@@ -95,7 +95,7 @@ def add_magnet(aria_instance, magnetic_link, c_file_name):
     except Exception as e:
         return (
             False,
-            "**👺𝙁𝘼𝙄𝙇𝙀𝘿** \n" + str(e) + " \n𝙋𝙡𝙚𝙖𝙨𝙚 𝙙𝙤 𝙣𝙤𝙩 𝙨𝙚𝙣𝙙 𝙎𝙇𝙊𝙒/𝘿𝙀𝘼𝘿 𝙡𝙞𝙣𝙠𝙨 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙨𝙥𝙖𝙘𝙚𝙨.👺",
+            "**☹️𝙁𝘼𝙄𝙇𝙀𝘿** \n" + str(e) + " \n𝗨𝗻𝗸𝗶𝗹 𝙙𝙤 𝙣𝙤𝙩 𝙨𝙚𝙣𝙙 𝙎𝙇𝙊𝙒/𝘿𝙀𝘼𝘿 𝙡𝙞𝙣𝙠𝙨 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙨𝙥𝙖𝙘𝙚𝙨.👺",
         )
     else:
         return True, "" + download.gid + ""
@@ -118,14 +118,14 @@ def add_torrent(aria_instance, torrent_file_path):
         except Exception as e:
             return (
                 False,
-                "**👺𝙁𝘼𝙄𝙇𝙀𝘿** \n"
+                "**☹️𝙁𝘼𝙄𝙇𝙀𝘿** \n"
                 + str(e)
-                + " \n𝙋𝙡𝙚𝙖𝙨𝙚 𝙙𝙤 𝙣𝙤𝙩 𝙨𝙚𝙣𝙙 𝙎𝙇𝙊𝙒/𝘿𝙀𝘼𝘿 𝙡𝙞𝙣𝙠𝙨 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙨𝙥𝙖𝙘𝙚𝙨.👺",
+                + " \n𝗨𝗻𝗸𝗶𝗹 𝙙𝙤 𝙣𝙤𝙩 𝙨𝙚𝙣𝙙 𝙎𝙇𝙊𝙒/𝘿𝙀𝘼𝘿 𝙡𝙞𝙣𝙠𝙨 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙨𝙥𝙖𝙘𝙚𝙨.👺",
             )
         else:
             return True, "" + download.gid + ""
     else:
-        return False, "**👺𝙁𝘼𝙄𝙇𝙀𝘿** \n𝙋𝙡𝙚𝙖𝙨𝙚 𝙩𝙧𝙮 𝙤𝙩𝙝𝙚𝙧 𝙨𝙤𝙪𝙧𝙘𝙚𝙨 𝙩𝙤 𝙜𝙚𝙩 𝙬𝙤𝙧𝙠𝙖𝙗𝙡𝙚 𝙡𝙞𝙣𝙠👺"
+        return False, "**☹️𝙁𝘼𝙄𝙇𝙀𝘿** \n𝙋𝙡𝙚𝙖𝙨𝙚 𝙩𝙧𝙮 𝙤𝙩𝙝𝙚𝙧 𝙨𝙤𝙪𝙧𝙘𝙚𝙨 𝙩𝙤 𝙜𝙚𝙩 𝙬𝙤𝙧𝙠𝙖𝙗𝙡𝙚 𝙡𝙞𝙣𝙠👺"
 
 
 def add_url(aria_instance, text_url, c_file_name):
@@ -154,7 +154,7 @@ def add_url(aria_instance, text_url, c_file_name):
     except Exception as e:
         return (
             False,
-            "**👺𝙁𝘼𝙄𝙇𝙀𝘿** \n" + str(e) + " \n𝙋𝙡𝙚𝙖𝙨𝙚 𝙙𝙤 𝙣𝙤𝙩 𝙨𝙚𝙣𝙙 𝙎𝙇𝙊𝙒/𝘿𝙀𝘼𝘿 𝙡𝙞𝙣𝙠𝙨 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙨𝙥𝙖𝙘𝙚𝙨.👺",
+            "**☹️𝙁𝘼𝙄𝙇𝙀𝘿** \n" + str(e) + " \n𝗨𝗻𝗸𝗶𝗹 𝙙𝙤 𝙣𝙤𝙩 𝙨𝙚𝙣𝙙 𝙎𝙇𝙊𝙒/𝘿𝙀𝘼𝘿 𝙡𝙞𝙣𝙠𝙨 𝙤𝙧 𝙘𝙝𝙚𝙘𝙠 𝙨𝙥𝙖𝙘𝙚𝙨.👺",
         )
     else:
         return True, "" + download.gid + ""
@@ -341,7 +341,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                 ikeyboard = []
                 ikeyboard.append(
                     InlineKeyboardButton(
-                        "❌𝘾𝘼𝙉𝘾𝙀𝙇", callback_data=(f"cancel {gid}").encode("UTF-8")
+                        "❌𝘾𝘼𝙉𝘾𝙀𝙇⛔", callback_data=(f"cancel {gid}").encode("UTF-8")
                     )
                 )
                 inline_keyboard.append(ikeyboard)
@@ -362,7 +362,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
                             f"🔴𝘾𝙖𝙣𝙘𝙚𝙡𝙡𝙞𝙣𝙜 𝙙𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙤𝙛 {file.name} 𝙢𝙖𝙮 𝙗𝙚 𝙙𝙪𝙚 𝙩𝙤 𝙨𝙡𝙤𝙬 𝙩𝙤𝙧𝙧𝙚𝙣𝙩🐌"
                         )
                         await event.edit(
-                            f"🔴𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙘𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙 :\n<code>{file.name}</code>\n\n #DeadTorrent⚰️"
+                            f"🔴𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙘𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙❌ :\n<code>{file.name}</code>\n\n #DeadTorrent⚰️"
                         )
                         file.remove(force=True, files=True)
                         return False
@@ -376,16 +376,16 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
             await check_progress_for_dl(aria2, gid, event, previous_message)
         else:
             LOGGER.info(
-                f"🟢𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮: `{file.name} ({file.total_length_string()})` 🤗"
+                f"✅𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮: `{file.name} ({file.total_length_string()})` 🤗"
             )
             await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
             await event.edit(
-                f"🟢𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮: `{file.name} ({file.total_length_string()})` 🤗"
+                f"✅𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮: `{file.name} ({file.total_length_string()})` 🤗"
             )
             return True
     except aria2p.client.ClientException:
         await event.edit(
-            f"🔴𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙘𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙 :\n<code>{file.name} ({file.total_length_string()})</code>❌"
+            f"🔴𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙘𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙❌ :\n<code>{file.name} ({file.total_length_string()})</code>❌"
         )
     except MessageNotModified as ep:
         LOGGER.info(ep)
@@ -405,7 +405,7 @@ async def check_progress_for_dl(aria2, gid, event, previous_message):
         LOGGER.info(str(e))
         if "not found" in str(e) or "'file'" in str(e):
             await event.edit(
-                f"🔴𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙘𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙 :\n<code>{file.name} ({file.total_length_string()})</code>❌"
+                f"🔴𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙘𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙❌ :\n<code>{file.name} ({file.total_length_string()})</code>❌"
             )
             return False
         else:
