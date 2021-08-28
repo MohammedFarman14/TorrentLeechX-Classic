@@ -252,9 +252,9 @@ async def upload_log_file(client, message):
 
 async def upload_as_doc(client, message):
     user_specific_config[message.from_user.id]=UserDynaConfig(message.from_user.id,True)
-    await message.reply_text("**🧲 Your Files Will Be Uploaded As Document 📁**")
+    await message.reply_text("**🧲 𝗢𝗸𝗮𝘆 𝗨𝗻𝗸𝗶𝗹 𝗬𝗼𝘂𝗿 𝗳𝗶𝗹𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝘂𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗔𝘀 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁 📁**")
 
 
 async def upload_as_video(client, message):
     user_specific_config[message.from_user.id]=UserDynaConfig(message.from_user.id,False)
-    await message.reply_text("**🧲 Your Files Will Be Uploaded As Streamable 🎞**")
+    await message.reply_text("**🧲𝗢𝗸𝗮𝘆 𝗨𝗻𝗸𝗶𝗹 𝗬𝗼𝘂𝗿 𝗳𝗶𝗹𝗲𝘀 𝘄𝗶𝗹𝗹 𝗯𝗲 𝘂𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗔𝘀 𝗦𝘁𝗿𝗲𝗮𝗺𝗮𝗯𝗹𝗲🎞**")
